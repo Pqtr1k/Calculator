@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  max-width: 600px;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+fieldset {
+  background-color: rgb(204, 210, 211);
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.placeholder {
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  font-size: 25px;
+}
+
+.row {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sign {
+  height: 50px;
+  width: 60px;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(126, 124, 124);
+  font-weight: 500;
+}
+
+.oblicz {
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+}
+
+.Result {
+  margin-top: 10px;
+  min-height: 200px;
+  background-color: white;
+  font-size: 50px;
+}
